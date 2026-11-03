@@ -1,5 +1,6 @@
 package testing;
 
+import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -67,5 +68,10 @@ public class assertion_class {
     }
 }
 
+@Before
+public void close_browser(){
+if(driver !=null){
 
-
+        driver.close();
+    }
+        }

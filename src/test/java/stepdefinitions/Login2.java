@@ -54,6 +54,10 @@ public class Login2 {
 
     }
 
+    public void git_commit_demo(){
+        System.out.println("this is git commit demo");
+    }
+
 }
 
 
